@@ -1,0 +1,36 @@
+# Local environments and Python caches
+.venv
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+*.egg-info/
+build/
+dist/
+
+# Private configuration
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+*.docx
+*.pdf
+
+# Local archives, references, verification files, and runtime logs
+.local/
+.codex-reference/
+.verification/
+*.log
+
+# Generated training models and evaluation outputs
+outputs/
+
+# Editor and operating-system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+~$*
